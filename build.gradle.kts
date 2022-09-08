@@ -14,6 +14,11 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+    // https://mvnrepository.com/artifact/javax.xml.ws/jaxws-api
+    implementation("javax.xml.ws:jaxws-api:2.3.1")
+// https://mvnrepository.com/artifact/javax.jws/javax.jws-api
+    implementation("javax.jws:javax.jws-api:1.1")
+
 }
 
 tasks.test {
